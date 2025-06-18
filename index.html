@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Elegant Store</title>
+  <style>
+    body { font-family: sans-serif; margin: 0; padding: 0; background: #f9f9f9; }
+    header { background: #222; color: white; text-align: center; padding: 30px 10px; }
+    .products { display: flex; flex-wrap: wrap; justify-content: center; padding: 20px; }
+    .card {
+      background: white;
+      border-radius: 10px;
+      width: 280px;
+      margin: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+    }
+    .card img { width: 100%; height: auto; }
+    .info { padding: 15px; }
+    .info h3 { margin: 10px 0 5px; }
+    .info p { margin: 5px 0 10px; color: #444; }
+    .info a {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #007bff;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .info a:hover { background: #0056b3; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Elegant Store</h1>
+    <p>أزياءك اليومية بأناقة</p>
+  </header>
+
+  <div class="products">
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300x300.png?text=Dress+Jeans" alt="Dress Jeans">
+      <div class="info">
+        <h3>Dress Jeans</h3>
+        <p>800 جنيه</p>
+        <a href="https://wa.me/201061562260?text=أريد%20طلب%20Dress%20Jeans">اطلب الآن</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300x300.png?text=Blouze" alt="Blouze">
+      <div class="info">
+        <h3>Blouze</h3>
+        <p>350 جنيه – One Size – كل الألوان</p>
+        <a href="https://wa.me/201061562260?text=أريد%20طلب%20Blouze">اطلب الآن</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300x300.png?text=T-shirt+Oversize" alt="T-shirt Oversize">
+      <div class="info">
+        <h3>T-shirt Oversize</h3>
+        <p>300 جنيه – المقاسات M / S / L</p>
+        <a href="https://wa.me/201061562260?text=أريد%20طلب%20T-shirt%20Oversize">اطلب الآن</a>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
